@@ -266,7 +266,7 @@ input[type="range"]:focus + .rangeslider .rangeslider__handle {
 
 
 
-/* style 3 */
+/* style 4 */
 .pricing-card.active-4 .pricing-card-4 {display: block} 
 .pricing-card.active-4 .pricing-card-1,
 .pricing-card.active-4 .pricing-card-2,
@@ -292,6 +292,96 @@ input[type="range"]:focus + .rangeslider .rangeslider__handle {
 .pricing-card.active-4 .pricing-details-9,
 .pricing-card.active-4 .pricing-details-10,
 .pricing-card.active-4 .pricing-details-11,{
+  display: none;
+}
+
+
+/* style 5 */
+.pricing-card.active-5 .pricing-card-5 {display: block} 
+.pricing-card.active-5 .pricing-card-1,
+.pricing-card.active-5 .pricing-card-2,
+.pricing-card.active-5 .pricing-card-3,
+.pricing-card.active-5 .pricing-card-4,
+.pricing-card.active-5 .pricing-card-6,
+.pricing-card.active-5 .pricing-card-7,
+.pricing-card.active-5 .pricing-card-8,
+.pricing-card.active-5 .pricing-card-9,
+.pricing-card.active-5 .pricing-card-10,
+.pricing-card.active-5 .pricing-card-11,{
+  display: none;
+}
+  
+.pricing-card.active-5 .pricing-details-5 {display: block} 
+.pricing-card.active-5 .pricing-details-1,
+.pricing-card.active-5 .pricing-details-2,
+.pricing-card.active-5 .pricing-details-3,
+.pricing-card.active-5 .pricing-details-4,
+.pricing-card.active-5 .pricing-details-6,
+.pricing-card.active-5 .pricing-details-7,
+.pricing-card.active-5 .pricing-details-8,
+.pricing-card.active-5 .pricing-details-9,
+.pricing-card.active-5 .pricing-details-10,
+.pricing-card.active-5 .pricing-details-11,{
+  display: none;
+}
+
+
+
+/* style 6 */
+.pricing-card.active-6 .pricing-card-6 {display: block} 
+.pricing-card.active-6 .pricing-card-1,
+.pricing-card.active-6 .pricing-card-2,
+.pricing-card.active-6 .pricing-card-3,
+.pricing-card.active-6 .pricing-card-4,
+.pricing-card.active-6 .pricing-card-5,
+.pricing-card.active-6 .pricing-card-7,
+.pricing-card.active-6 .pricing-card-8,
+.pricing-card.active-6 .pricing-card-9,
+.pricing-card.active-6 .pricing-card-10,
+.pricing-card.active-6 .pricing-card-11,{
+  display: none;
+}
+  
+.pricing-card.active-6 .pricing-details-6 {display: block} 
+.pricing-card.active-6 .pricing-details-1,
+.pricing-card.active-6 .pricing-details-2,
+.pricing-card.active-6 .pricing-details-3,
+.pricing-card.active-6 .pricing-details-4,
+.pricing-card.active-6 .pricing-details-5,
+.pricing-card.active-6 .pricing-details-7,
+.pricing-card.active-6 .pricing-details-8,
+.pricing-card.active-6 .pricing-details-9,
+.pricing-card.active-6 .pricing-details-10,
+.pricing-card.active-6 .pricing-details-11,{
+  display: none;
+}
+
+/* style 7 */
+.pricing-card.active-7 .pricing-card-7 {display: block} 
+.pricing-card.active-7 .pricing-card-1,
+.pricing-card.active-7 .pricing-card-2,
+.pricing-card.active-7 .pricing-card-3,
+.pricing-card.active-7 .pricing-card-4,
+.pricing-card.active-7 .pricing-card-5,
+.pricing-card.active-7 .pricing-card-6,
+.pricing-card.active-7 .pricing-card-8,
+.pricing-card.active-7 .pricing-card-9,
+.pricing-card.active-7 .pricing-card-10,
+.pricing-card.active-7 .pricing-card-11,{
+  display: none;
+}
+  
+.pricing-card.active-7 .pricing-details-7 {display: block} 
+.pricing-card.active-7 .pricing-details-1,
+.pricing-card.active-7 .pricing-details-2,
+.pricing-card.active-7 .pricing-details-3,
+.pricing-card.active-7 .pricing-details-4,
+.pricing-card.active-7 .pricing-details-5,
+.pricing-card.active-7 .pricing-details-6,
+.pricing-card.active-7 .pricing-details-8,
+.pricing-card.active-7 .pricing-details-9,
+.pricing-card.active-7 .pricing-details-10,
+.pricing-card.active-7 .pricing-details-11,{
   display: none;
 }
 
