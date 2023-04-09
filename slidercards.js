@@ -1,5 +1,5 @@
 
-/*! rangeslider.js - v0.3.7 | (c) 2014 @andreruffert | MIT license | https://github.com/andreruffert/rangeslider.js */ ! function(a) {
+  /*! rangeslider.js - v0.3.7 | (c) 2014 @andreruffert | MIT license | https://github.com/andreruffert/rangeslider.js */ ! function(a) {
     "use strict";
     "function" == typeof define && define.amd ? define(["jquery"], a) : a("object" == typeof exports ? require("jquery") : jQuery)
 }(function(a) {
@@ -144,22 +144,57 @@
 <script>
     $('#ranger').change(function(){
       console.log($('#ranger').val())
-      if($('#ranger').val() < 20){
+      if($('#ranger').val() < 2){
         
-        $('.pricing-card').removeClass('active-1 active-2 active-3 display-hidden');
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-44 active-5 active-6 active-7 active-8 active-9 active-10 active-11 display-hidden');
         
         $('.pricing-card').addClass('active-1');
         
         
-      } else if($('#ranger').val() > 21 && $('#ranger').val() < 49){
+      } else if($('#ranger').val() > 1 && $('#ranger').val() < 3){
         
-        $('.pricing-card').removeClass('active-1 active-2 active-3');
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-44 active-5 active-6 active-7 active-8 active-9 active-10 active-11');
         $('.pricing-card').addClass('active-2 display-hidden');
         
-      } else if($('#ranger').val() > 48 && $('#ranger').val() < 89){
+      } else if($('#ranger').val() > 2 && $('#ranger').val() < 4){
         
-        $('.pricing-card').removeClass('active-1 active-2 active-3');
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-44 active-5 active-6 active-7 active-8 active-9 active-10 active-11');
         $('.pricing-card').addClass('active-3 display-hidden');
+        
+      } else if($('#ranger').val() > 3 && $('#ranger').val() < 5){
+        
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-44 active-5 active-6 active-7 active-8 active-9 active-10 active-11');
+        $('.pricing-card').addClass('active-44 display-hidden');
+        
+      } else if($('#ranger').val() > 4 && $('#ranger').val() < 6){
+        
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-44 active-5 active-6 active-7 active-8 active-9 active-10 active-11');
+        $('.pricing-card').addClass('active-5 display-hidden');
+        
+      }else if($('#ranger').val() > 5 && $('#ranger').val() < 7){
+        
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-44 active-5 active-6 active-7 active-8 active-9 active-10 active-11');
+        $('.pricing-card').addClass('active-6 display-hidden');
+      }else if($('#ranger').val() > 6 && $('#ranger').val() < 8){
+        
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-44 active-5 active-6 active-7 active-8 active-9 active-10 active-11');
+        $('.pricing-card').addClass('active-7 display-hidden');
+      }else if($('#ranger').val() > 7 && $('#ranger').val() < 9){
+        
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-44 active-5 active-6 active-7 active-8 active-9 active-10 active-11');
+        $('.pricing-card').addClass('active-8 display-hidden');
+      }else if($('#ranger').val() > 8 && $('#ranger').val() < 10){
+        
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-44 active-5 active-6 active-7 active-8 active-9 active-10 active-11');
+        $('.pricing-card').addClass('active-9 display-hidden');
+      }else if($('#ranger').val() > 9 && $('#ranger').val() < 11){
+        
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-44 active-5 active-6 active-7 active-8 active-9 active-10 active-11');
+        $('.pricing-card').addClass('active-10 display-hidden');
+      }else if($('#ranger').val() > 10 && $('#ranger').val() < 12){
+        
+        $('.pricing-card').removeClass('active-11 active-2 active-3 active-44 active-5 active-6 active-7 active-8 active-9 active-10 active-11');
+        $('.pricing-card').addClass('active-11 display-hidden');
       }
      
     })
@@ -187,4 +222,3 @@
         $('.slide').removeClass('active');
       }
   });
-  
