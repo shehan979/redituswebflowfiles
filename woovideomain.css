@@ -103,7 +103,7 @@ h1 {
 }
 
 .slick-slide:not(.slick-active) {
-  margin: 0 0;
+  margin: 0 20px;
 }
 
 .child {
